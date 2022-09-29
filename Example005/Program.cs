@@ -1,7 +1,7 @@
 ﻿Console.Write("Enter your name: ");
 string username = Console.ReadLine();
 
-if (username == "Val")
+if (username.ToLower() == "val")
 {
     Console.WriteLine("Pam-pam-pam");
 }
